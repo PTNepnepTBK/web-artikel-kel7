@@ -1,3 +1,9 @@
+body {
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+}
+
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -5,8 +11,16 @@
     padding: 10px;
     background-color: #333;
     color: white;
-    
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 1000; 
+    width: 95%;
+    margin-top: -15px;
 }
+
 
 .nav-links {
     list-style: none;
@@ -17,11 +31,16 @@
 .nav-links a {
     color: white;
     text-decoration: none;
-    transition: color 0.3s;
+    transition: all 0.3s; 
+    padding: 5px 10px; 
+    border-radius: 10px; 
 }
 
 .nav-links a:hover {
-    color: #ff6347; 
+    color: #000000; 
+    background-color: rgba(255, 255, 255, 0.839); 
+    transform: scale(2); 
+ 
 }
 
 
@@ -32,7 +51,8 @@
 
 .header img {
     max-width: 70%;
-    height: auto;
+    height: 200px;
+    bo
 }
 
 
