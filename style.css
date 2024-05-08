@@ -31,14 +31,43 @@
 }
 
 .header img {
-    max-width: 100%;
+    max-width: 70%;
     height: auto;
 }
 
 
 .content {
-    padding: 20px;
-    background-color: #f5f5f5;
+    padding: 10px;
+    background-color: #fffcfc;
     max-width: 800px;
     margin: 0 auto;
+    
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 10px; 
+}
+
+footer { 
+    text-align: center;
+    padding: 20px;  
+    background-color: #000000;
+    color: white;
+}
+
+
+i a { 
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
+}
+
+.header img { 
+    max-width: 60%;
+    height: 40%;
+}
+
+
+.content h3 { 
+   
+    margin: 10px 0;
 }
