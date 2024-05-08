@@ -1,46 +1,77 @@
 <!DOCTYPE html>
-<html lang="id">
-<head>
-    <meta charset="UTF-8">
-    <title>Artikel ddddd</title>
-    <link rel="stylesheet" href="style.css">
-</head>
-<body>
-
-
-    <nav class="navbar">
-        <div class="logo">Brand </div>
-        <ul class="nav-links">
-            <li><a href="#">Home</a></li>
-            <li><a href="#Ai">Artificial Itelligence</a></li>
-            <li><a href="#Crypto">Crypto</a></li>
-            <li><a href="#NFT">NFT</a></li>
-            <li><a href="#Meraverse">Meraverse</a></li>
-            <li><a href="#Web3">Web3</a></li>
-       
-        </ul>
-    </nav>
-
-
-    <header class="header">
-        <img src="https://via.placeholder.com/1200x400" alt="Header Image" />
-    </header>
-
-
-    <section class="content">
-        <h1>Judul Artikel</h1>
-        <p>
-            Ini adalah artikel contoh. Anda dapat menambahkan konten yang relevan di sini. 
-            Artikel ini memberikan informasi yang bermanfaat bagi para pembaca. 
-            Desain web ini sederhana namun cukup fungsional untuk berbagai keperluan.
-        </p>
-    </section>
-
-   
-
-    <script src="script.js">
-        
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta
+      name="viewport"
+      content="width=device-width, initial-scale=1, shrink-to-fit=no"
+    />
+    <meta name="description" content="" />
+    <meta name="author" content="" />
+    <title>KUIS PTI WEB ARTIKEL</title>
+    <!-- Favicon-->
+    <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
+    <!-- Core theme CSS (includes Bootstrap)-->
+    <link href="app.css" rel="stylesheet" />
+  </head>
+  <body>
+    <div class="top-bar">
+      <div style="width: 60%; padding: 1%">SanYoobee</div>
+      <div
+        style="
+          width: 20%;
+          display: flex;
+          justify-content: space-between;
+          padding: 1%;
+        "
+      >
+        <a
+          class="nav-link"
+          onclick="navigateTo('ai.html')"
+          style="cursor: pointer"
+          >AI</a
+        >
+        <a
+          class="nav-link"
+          onclick="navigateTo('crypto.html')"
+          style="cursor: pointer"
+          >Crypto</a
+        >
+        <a
+          class="nav-link"
+          onclick="navigateTo('metaverse.html')"
+          style="cursor: pointer"
+          >Metaverse</a
+        >
+        <a
+          class="nav-link"
+          onclick="navigateTo('nft.html')"
+          style="cursor: pointer"
+          >NFT</a
+        >
+        <a
+          class="nav-link"
+          onclick="navigateTo('web3.html')"
+          style="cursor: pointer"
+          >Web3</a
+        >
+      </div>
+    </div>
+    <div class="body-container">
+      <div class="main-container">
+        <div class="main-container-head">Teknologi Era Kini</div>
+        <div class="main-container-sub-head">
+          Beberapa Teknologi yang relevan untuk dipelajari pada masa kini
+        </div>
+        <button class="main-container-started-button" onclick="navigateTo('ai.html')">Get Started</button>
+      </div>
+    </div>
+    <!-- Bootstrap core JS-->
+    <!-- Core theme JS-->
+    <script>
+      function navigateTo(pageUrl) {
+        window.location.href = pageUrl;
+      }
     </script>
-
-</body>
+  </body>
 </html>
