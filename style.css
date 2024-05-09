@@ -186,6 +186,7 @@ button:hover {
   max-width: 80%;
 }
 .main-container-sub-head {
+  margin-top: 1%;
   font-size: 1vw;
   font-weight: lighter;
   max-width: 60%;
