@@ -5,10 +5,11 @@ document.getElementById("toggleFooter").addEventListener("click", function () {
     if (footer.style.height === "0px" || !footer.style.height) {
         footer.style.height = "40px"; 
         footer.style.opacity = "1"; 
-        toggleButton.textContent = "Sembunyikan"; 
+        toggleButton.textContent = "Hide"; 
     } else {
         footer.style.height = "0";
         footer.style.opacity = "0"; 
-        toggleButton.textContent = "Tampilkan Referensi"; 
+        toggleButton.textContent = "Show Reference"; 
     }
 });
+
