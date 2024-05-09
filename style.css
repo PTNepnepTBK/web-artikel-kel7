@@ -1,131 +1,152 @@
 body {
-  margin: 0;
-  padding: 0;
-  font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    font-family: Arial, sans-serif;
+    color: #000000;
 }
 
 .navbar {
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-  padding: 10px;
-  background-color: #333;
-  color: white;
-  border-radius: 15px;
-  box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
-  position: fixed;
-  left: 50%;
-  transform: translateX(-50%); 
-  z-index: 1000; 
-  width: 95%;
-  margin-top: -15px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 15px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    left: 50%;
+    transform: translateX(-50%); 
+    z-index: 1000; 
+    width: 95%;
+    margin-top: -15px;
 }
 
 
 .nav-links {
-  list-style: none;
-  display: flex;
-  gap: 20px;
+    list-style: none;
+    display: flex;
+    gap: 20px;
 }
 
 .nav-links a {
-  color: white;
-  text-decoration: none;
-  transition: all 0.3s; 
-  padding: 5px 10px; 
-  border-radius: 10px; 
+    color: white;
+    text-decoration: none;
+    transition: all 0.3s; 
+    padding: 5px 10px; 
+    border-radius: 10px; 
 }
 
 .nav-links a:hover {
-  color: #000000; 
-  background-color: rgba(255, 255, 255, 0.839); 
-  transform: scale(2); 
-
+    color: #000000; 
+    background-color: rgba(255, 255, 255, 0.839); 
+    transform: scale(2); 
+ 
 }
 
 
 .header {
-  text-align: center;
-  margin: 20px 0;
+    text-align: center;
+    margin: 20px 0;
 }
 
 .header img {
-  max-width: 70%;
-  height: 200px;
-  margin-top: 90px;
+    max-width: 70%;
+    height: 200px;
+    margin-top: 90px;
 }
 
 .penulis { 
-text-align: center;
-margin: 0 0 0 -450px;
-color: #18090980;
+  text-align: center;
+  margin: 0 0 0 -450px;
+  color: #18090980;
 }
 
 h1{
-  font-size: 40px;
+    font-size: 40px;
 
 
-  color: white;
-  background-color: #000000;
+    color: #140b0bc3;
+    background-color: #00000000;
+    display: inline;
+    border-radius: 3px;
+}
+p{
+  font-size: 12px;
+  color: #140b0bc3;
+  background-color: #00000000;
   display: inline;
   border-radius: 3px;
 }
+
+b{
+  color: #140b0bc3;
+}
+
+li{
+  color: #140b0bc3;
+}
+
+section{
+  color: #140b0bc3;
+}
+
 .content {
-  padding: 10px;
-  background-color: #fffcfc13;
-  max-width: 800px;
-  margin: 0 auto;
-  
-  text-align: justify;
-  line-height: 1.4;
-  margin-bottom: 10px; 
+    padding: 10px;
+    background-color: #fffcfc13;
+    max-width: 800px;
+    margin: 0 auto;
+    
+    text-align: justify;
+    line-height: 1.4;
+    margin-bottom: 10px; 
 }
 
 .footer {
-  text-align: center;
-  padding: 20px;
-  background-color: #000000;
-  color: white;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  height: 0;
-  opacity: 0;
-  transition: height 0.5s, opacity 0.5s; 
-  overflow: hidden;
+    text-align: center;
+    padding: 20px;
+    background-color: #000000;
+    color: white;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    height: 0;
+    opacity: 0;
+    transition: height 0.5s, opacity 0.5s; 
+    overflow: hidden;
 }
 
 
 i a { 
-  color: white;
-  text-decoration: none;
-  transition: color 0.3s;
+    color: white;
+    text-decoration: none;
+    transition: color 0.3s;
 }
 
 .header img { 
-  max-width: 60%;
-  height: 40%;
+    max-width: 60%;
+    height: 40%;
 }
 
 
 .content h3 { 
- 
-  margin: 10px 0;
+   
+    margin: 10px 0;
 }
 
 button { 
-  margin-top: 1%;
-  width: 100%;
-  padding: 1% 2%;
-  font-size: 1em;
-  text-align: center;
-  text-decoration: none;
-  border-top-left-radius: 20px;
-  border-top-right-radius: 20px;
-  background-color: rgb(255, 255, 255);
-  cursor: pointer;
-  color: #000000;
-  font-size: 20px;
-  border-style:dotted;
+    margin-top: 1%;
+    width: 100%;
+    padding: 1% 2%;
+    font-size: 1em;
+    text-align: center;
+    text-decoration: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    background-color: rgb(255, 255, 255);
+    cursor: pointer;
+    color: #000000;
+    font-size: 20px;
+    border-style:dotted;
 }
 
 
@@ -215,10 +236,6 @@ body {
   .main-container-head,
   .main-container-sub-head,
   .main-container-started-button,
-  .penulis,
-  .header {
+  .content {
     animation: slideInFromBottom 1.5s ease forwards;
-  }
-  .content{
-    animation: slideInFromBottom 2s ease forwards;
   }
