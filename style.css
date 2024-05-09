@@ -215,6 +215,10 @@ body {
   .main-container-head,
   .main-container-sub-head,
   .main-container-started-button,
-  .content {
+  .penulis,
+  .header {
     animation: slideInFromBottom 1.5s ease forwards;
+  }
+  .content{
+    animation: slideInFromBottom 2s ease forwards;
   }
