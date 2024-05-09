@@ -12,4 +12,3 @@ document.getElementById("toggleFooter").addEventListener("click", function () {
         toggleButton.textContent = "Tampilkan Referensi"; 
     }
 });
-
