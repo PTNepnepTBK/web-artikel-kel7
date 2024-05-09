@@ -9,23 +9,48 @@
     <meta name="description" content="" />
     <meta name="author" content="" />
     <title>KUIS PTI WEB ARTIKEL</title>
-    
+
     <link rel="icon" type="image/x-icon" href="assets/favicon.ico" />
- 
-    <link href="app.css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&display=swap" rel="stylesheet">
+
+    <link href="style.css" rel="stylesheet" />
+    <style>
+      body {
+        margin: 0;
+        font-family: "Roboto", sans-serif; /* Menggunakan font Roboto */
+        background-color: #f8f9fa;
+        color: #e8e8e8; /* Warna teks hitam */
+        justify-content: center;
+        height: 100vh;
+        font-size: 1vw;
+      }
+    </style>
   </head>
   <body>
-
     <div class="body-container">
       <div class="main-container">
-        <div class="main-container-head">Teknologi Era Kini</div>
+        <div class="main-container-head">WEB Artikel Pengantar Teknologi Informasi</div>
         <div class="main-container-sub-head">
-          Beberapa Teknologi yang relevan untuk dipelajari pada masa kini
+          Mari bersama-sama kita tingkatkan semangat literasi! Buku adalah
+          jendela dunia, dan membaca membuka pintu menuju pengetahuan tak
+          terbatas. Ayoo, luangkan waktu untuk membaca setiap hari, diskusikan
+          ide-ide baru, dan jadilah bagian dari komunitas yang mencintai ilmu
+          pengetahuan.
+          <br>
+          <br>
+          <br>
+          <p style="color: white; font-size: 1.2VW;">Cintai Negeri, Hidupkan Literasi!</p>
         </div>
-        <button class="main-container-started-button" onclick="navigateTo('ai.html')">Ayo!! Mulai Membaca...</button>
+        <button
+          class="main-container-started-button"
+          onclick="navigateTo('ai.html')"
+        >
+          Ayo!! Mulai Membaca...
+        </button>
       </div>
     </div>
-
 
     <script>
       function navigateTo(pageUrl) {
